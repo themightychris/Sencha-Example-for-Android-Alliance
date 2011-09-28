@@ -29,10 +29,6 @@ Ext.regApplication({
 		PAA.viewport = new Ext.Panel({
 		
 			fullscreen: true // signals sencha to render component immediately and fill the screen with it
-			,layout: {
-				type: 'vbox'
-				,align: 'stretch'
-			}
 			
 			,dockedItems: [{
 				xtype: 'toolbar'
@@ -40,6 +36,10 @@ Ext.regApplication({
 				,title: 'Android Alliance'
 			}]
 			
+			,layout: {
+				type: 'vbox'
+				,align: 'stretch'
+			}
 			,items: [{
 				xtype: 'list'
 				,height: 250
