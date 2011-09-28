@@ -52,8 +52,8 @@ Ext.regApplication({
 				]
 				,listeners: {
 					itemtap: function(list, index, item, ev) {
-			    		var record = list.store.getAt(index);
-			    		PAA.viewport.getComponent('articleViewer').update(record.get('description'));
+						var record = list.store.getAt(index);
+						PAA.viewport.getComponent('articleViewer').update(record.get('description'));
 					}
 				}
 			},{
